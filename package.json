@@ -1,20 +1,20 @@
 {
-  "name": "homebridge-unifi-protect",
-  "version": "7.1.2",
-  "displayName": "Homebridge UniFi Protect",
+  "name": "homebridge-unifi-protect-grvhi",
+  "version": "7.1.2g",
+  "displayName": "Homebridge UniFi Protect (GRVHI)",
   "description": "Homebridge UniFi Protect plugin providing complete HomeKit integration for the UniFi Protect ecosystem with full support for most features including autoconfiguration, motion detection, multiple controllers, and realtime updates.",
   "author": {
-    "name": "HJD",
-    "url": "https://github.com/hjdhjd"
+    "name": "GRVHI",
+    "url": "https://github.com/grvhi"
   },
-  "homepage": "https://github.com/hjdhjd/homebridge-unifi-protect#readme",
+  "homepage": "https://github.com/grvhi/homebridge-unifi-protect#readme",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hjdhjd/homebridge-unifi-protect.git"
+    "url": "git://github.com/grvhi/homebridge-unifi-protect.git"
   },
   "bugs": {
-    "url": "http://github.com/hjdhjd/homebridge-unifi-protect/issues"
+    "url": "http://github.com/grvhi/homebridge-unifi-protect/issues"
   },
   "type": "module",
   "engines": {
