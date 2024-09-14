@@ -136,10 +136,8 @@ export class ProtectNvr {
     // If we are running an unsupported version of UniFi Protect, we're done.
     if(!this.ufp.version.startsWith("4.")) {
 
-      this.log.error("This version of HBUP requires running UniFi Protect v4.0 or above.");
-      this.ufpApi.logout();
-
-      return;
+      this.log.warn("This version of HBUP requires running UniFi Protect v4.0 or above.");
+      
     }
 
     // We successfully logged in.
